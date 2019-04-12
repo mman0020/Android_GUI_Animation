@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstValueAniDemo</string>
+    <string name="btn_value">start anim</string>
+    <string name="text_view_value">hello today</string>
+</resources>
