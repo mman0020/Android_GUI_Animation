@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedElementActivity">
+
+
+
+    <TextView
+        android:id="@+id/shared_element_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="profile"
+        android:text="这里是共享元素页面"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="test"
+        android:text="test"/>
+
+</LinearLayout>
