@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.baiheng.firsttransitionanimdemo">
+    package="com.baiheng.transitiondemo">
 
     <application
         android:allowBackup="true"
@@ -16,10 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/BaseAppTheme" />
         <activity android:name=".SharedElementActivity" />
-        <activity android:name=".CustomTransitionActivity"
-            android:theme="@style/TranslucentBg"></activity>
+        <activity android:name=".CustomTransitionActivity" />
+        <activity android:name=".CustomVisibilityActivity"></activity>
     </application>
 
 </manifest>

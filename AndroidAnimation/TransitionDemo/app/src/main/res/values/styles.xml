@@ -9,16 +9,8 @@
     </style>
 
     <style name="BaseAppTheme" parent="Theme.AppCompat.Light">
+        <!-- enable window content transitions -->
         <item name="android:windowContentTransitions">true</item>
-        <item name="android:windowEnterTransition">@transition/activity_fade</item>
-        <item name="android:windowExitTransition">@transition/activity_slide</item>
     </style>
-
-    <style name="TranslucentBg" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
-
-
 
 </resources>
