@@ -9,9 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class FABTransition extends Visibility {
+
+    private static final String BOTTOM_TRANSITION_Y = "FABTransition:change_transY:transitionY";
+    private static final String TAG = "FABTransition";
     private View fab;
     private Context context;
-    private static final String BOTTOM_TRANSITION_Y = "FABTransition:change_transY:transitionY";
 
     public FABTransition(View fab, Context context) {
         this.fab = fab;
