@@ -10,5 +10,8 @@
     <com.baiheng.canvasdemo.CustomView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+<!--    <com.baiheng.canvasdemo.PoterDuffLoadingView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
 
 </LinearLayout>

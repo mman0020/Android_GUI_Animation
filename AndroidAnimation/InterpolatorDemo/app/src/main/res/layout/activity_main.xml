@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/linear_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_linear_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_linear_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+            <Button
+                android:id="@+id/accelerate_decelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_accelerate_decelerate_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_accelerate_decelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+
+            <Button
+                android:id="@+id/accelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_accelerate_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_accelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+            <Button
+                android:id="@+id/decelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_decelerate_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_decelerate_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+            <Button
+                android:id="@+id/overshoot_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_overshoot_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_overshoot_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+            <Button
+                android:id="@+id/bounce_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_bounce_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_bounce_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+            <Button
+                android:id="@+id/path_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/btn_start_path_interpolator"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/img_path_interpolator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/interpolator_picture"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

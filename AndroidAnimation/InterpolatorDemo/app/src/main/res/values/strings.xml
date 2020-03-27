@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">InterpolatorDemo</string>
+    <string name="btn_start_linear_interpolator">LinearInterpolator</string>
+    <string name="btn_start_accelerate_decelerate_interpolator">AccelerateDecelerateInterpolator</string>
+    <string name="btn_start_accelerate_interpolator">AccelerateInterpolator</string>
+    <string name="btn_start_decelerate_interpolator">DecelerateInterpolator</string>
+    <string name="btn_start_overshoot_interpolator">OvershootInterpolator</string>
+    <string name="btn_start_bounce_interpolator">BounceInterpolator</string>
+    <string name="btn_start_path_interpolator">PathInterpolator</string>
+</resources>
